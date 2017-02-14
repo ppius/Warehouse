@@ -1,0 +1,3 @@
+Let's begin by checking that BinItem and Bin exist.
+
+  >>> from warehouse import BinItem, Bin

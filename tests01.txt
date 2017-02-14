@@ -1,0 +1,18 @@
+Let's begin by checking that BinItem and Bin exist.
+
+  >>> from warehouse import BinItem, Bin
+
+
+BinItems
+========
+
+BinItems consist of sku and quantity attributes, which are both displayed
+when a BinItem is printed.
+
+  >>> item = BinItem('12345-27', 2136)
+  >>> item.sku
+  '12345-27'
+  >>> item.quantity
+  2136
+  >>> print(item)
+  SKU 12345-27: 2136
